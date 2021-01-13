@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.news {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.news-item {
+  width: 43%;
+  height: auto;
+  margin: 0px 20px;
+}
+
+.news-item img {
+  max-width: 100%;
+}
+
+.news-item a {
+  text-decoration: none;
+  color: #333;
+  font-style: italic;
+  display: inline-block;
+  margin: 10px 0px;
+}
+.news-item h3 {
+  display: flex;
+  align-items: center;
+}
+
+.news-item h3 img {
+  width: 18px;
+  margin-right: 5px;
+}
